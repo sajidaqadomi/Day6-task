@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px;
+}
+
+#characterList {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.charecter-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.empty-characters,
+.error-message {
+  align-items: center;
+}
+
+.label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.charecter-info {
+  margin-left: 20px;
+}
+
+.charecter-info-item {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.error-message .charecter-info-item {
+  color: red;
+}
